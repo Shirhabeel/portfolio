@@ -6,9 +6,9 @@ import SocialMediaIcons from "../components/SocialIcons";
 const PingMeScreen: React.FC = () => {
   return (
     <>
-        <Heading head="About Me" />
+      <Heading head="Contact Me" />
       <div className="space-y-4 flex justify-center items-center flex-col">
-        <h1 className="capitalize" >Just Ping Me Any where here</h1>
+        <h1 className="capitalize">Just Ping Me Any where here</h1>
         <SocialMediaIcons flexDirection="row" startIcons={0} endIcons={99} />
         {/* <div className="flex justify-around items-center space-x-3">
           <div className="bg-bg3 p-6 rounded-lg w-1/2">

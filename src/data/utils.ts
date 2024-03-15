@@ -1,6 +1,6 @@
-export const name = "Muhammad Faeez";
-export const role = "Software Engineer - Graphic Designer";
-export const heroImage = "/assets/Profile-Pic.png";
+export const name = "Shirhabeel Awan";
+export const role = "Software Engineer - Web Designer";
+export const heroImage = "/assets/Profile-Pic.jpg";
 
 export const locationTitleMap: { [key: string]: string } = {
   "/": "My Base",
@@ -16,10 +16,8 @@ import {
   FaInstagram,
   FaTwitter,
   FaGithub,
-  FaBehance,
   FaLinkedin,
   FaReact,
-  FaPython,
   FaRegHandshake,
 } from "react-icons/fa";
 import { GiJourney, GiFilmProjector } from "react-icons/gi";
@@ -42,18 +40,22 @@ export const navLinks = [
 ];
 export const personalInfoData = [
   // { label: "Phone", value: "+1 123-456-7890", icon: BsFillPhoneFill },
-  { label: "Location", value: "Bahawalpur, Pak", icon: IoIosLocate },
-  { label: "Email", value: "mfaeezshabbir@gmail.com", icon: SiMinutemailer },
-  { label: "Birthday", value: "April 08, 2003", icon: BsFillCalendarEventFill },
+  { label: "Location", value: "Bahawalpur, Pk", icon: IoIosLocate },
+  { label: "Email", value: "shirhabeelawan@gmail.com", icon: SiMinutemailer },
+  {
+    label: "Birthday",
+    value: "December 25, 2002",
+    icon: BsFillCalendarEventFill,
+  },
 ];
 
+///////////////////////// CORRECT KARNY HEIN /////////////////////////
 export const socialMediaLinks = [
-  { icon: FaFacebook, link: "https://www.facebook.com/mfaeezshabbir" },
-  { icon: FaInstagram, link: "https://www.instagram.com/mfaeezshabbir" },
-  { icon: FaTwitter, link: "https://twitter.com/mfaeezshabbir" },
-  { icon: FaGithub, link: "https://github.com/mfaeezshabbir" },
-  { icon: FaBehance, link: "https://www.behance.net/mfaeezshabbir" },
-  { icon: FaLinkedin, link: "https://www.linkedin.com/in/mfaeezshabbir" },
+  { icon: FaFacebook, link: "https://www.facebook.com/shirhabeel.awan.73" },
+  { icon: FaInstagram, link: "https://www.instagram.com/shirha.exe/" },
+  { icon: FaTwitter, link: "https://twitter.com/awan_shirhabeel" },
+  { icon: FaGithub, link: "https://github.com/shirhabeel" },
+  { icon: FaLinkedin, link: "https://www.linkedin.com/in/shirhabeel-awan" },
 ];
 
 export const servicesData = [
@@ -68,19 +70,14 @@ export const servicesData = [
     icon: RiComputerLine,
   },
   {
-    title: "Graphic Design",
-    description: "Designing visually appealing graphics and illustrations",
+    title: "Web Desigining",
+    description: "Designing visually appealing UI & UX",
     icon: RiPaletteLine,
   },
   {
     title: "React Development",
     description: "Developing user interfaces using React framework",
     icon: FaReact,
-  },
-  {
-    title: "Python Programming",
-    description: "Writing efficient and clean Python code",
-    icon: FaPython,
   },
   {
     title: "UI Design",
@@ -99,7 +96,7 @@ export const servicesData = [
 // ];
 
 export const AboutMe =
-  "I am Muhammad Faeez Shabbir, a graduating software engineer and graphic designer specializing in web development using ReactJS. With a keen eye for detail and a passion for creating exceptional user experiences, I am dedicated to delivering high-quality projects that seamlessly blend functionality and aesthetics. My academic background, combined with my hands-on experience in web development and design, has equipped me with a strong foundation in problem-solving, collaboration, and innovation. As an adaptable and enthusiastic individual, I thrive in dynamic environments and continuously seek opportunities to learn and grow. With a drive to make a positive impact through technology, I am excited to embark on new challenges and contribute to the ever-evolving world of software development.";
+  "I am Shirhabeel Awan, a graduating software engineer and Web Designer specializing in web development using ReactJS. With a keen eye for detail and a passion for creating exceptional user experiences, I am dedicated to delivering high-quality projects that seamlessly blend functionality and aesthetics. My academic background, combined with my hands-on experience in web development and design, has equipped me with a strong foundation in problem-solving, collaboration, and innovation. As an adaptable and enthusiastic individual, I thrive in dynamic environments and continuously seek opportunities to learn and grow. With a drive to make a positive impact through technology, I am excited to embark on new challenges and contribute to the ever-evolving world of software development.";
 
 export const events = [
   {
@@ -111,33 +108,23 @@ export const events = [
   },
   {
     id: 2,
-    title: "Core Team Member - Google DSC, IUB-Chapter",
-    date: "2021-2022",
-    description:
-      "Organized tech events and workshops for students. Mentored students and provided guidance on software development projects.",
-  },
-  {
-    id: 3,
-    title: "Volunteer - Solution Fest",
+    title: "Volunteer - Hacktober Fest",
     date: "2022",
     description:
-      "Worked with a national-level student-run event aimed at solving challenges related to Google products. Assisted in organizing the event and provided technical assistance to participants.",
-  },
-  {
-    id: 4,
-    title: "DevHack Club Lead - IUB",
-    date: "2022 - Present",
-    description:
-      "Managed the club and organized events and workshops for students. Mentored students and provided guidance on software development projects.",
-  },
-  {
-    id: 5,
-    title: "Student Ambassador - Intel's oneAPI",
-    date: "April 2023 - Present",
-    description:
-      "Promoted oneAPI and provided technical assistance to students and developers. Organized hackathons and other technical events.",
+      "Volunteered in Hacktoberfest 2023 and delivered a presentation on GitHub to peers. Assisted in organizing the event and provided technical assistance to participants.",
   },
 ];
+
+/* 
+  These will use below in upcoming days.
+  SiNodedotjs,
+  SiMongodb,
+  SiMysql,
+  SiExpress,
+  SiNextdotjs,
+  SiAdobeillustrator,
+  SiAdobephotoshop,
+*/
 
 import {
   SiReact,
@@ -145,16 +132,9 @@ import {
   SiCss3,
   SiTailwindcss,
   SiJavascript,
-  SiNodedotjs,
-  SiMongodb,
-  SiMysql,
-  SiExpress,
-  SiNextdotjs,
   SiOracle,
   SiGit,
   SiFigma,
-  SiAdobeillustrator,
-  SiAdobephotoshop,
 } from "react-icons/si";
 
 export const techStackData = [
@@ -163,16 +143,14 @@ export const techStackData = [
   { name: "CSS", icon: SiCss3 },
   { name: "Tailwindcss", icon: SiTailwindcss },
   { name: "JavaScript", icon: SiJavascript },
-  { name: "NextJS", icon: SiNextdotjs },
+  // { name: "NextJS", icon: SiNextdotjs },
   { name: "Oracle", icon: SiOracle },
   { name: "Git", icon: SiGit },
   { name: "Figma", icon: SiFigma },
-  { name: "Illustrator", icon: SiAdobeillustrator },
-  { name: "Photoshop", icon: SiAdobephotoshop },
-  { name: "Node.js", icon: SiNodedotjs },
-  { name: "MongoDB", icon: SiMongodb },
-  { name: "Mysql", icon: SiMysql },
-  { name: "Express.js", icon: SiExpress },
+  // { name: "Node.js", icon: SiNodedotjs },
+  // { name: "MongoDB", icon: SiMongodb },
+  // { name: "Mysql", icon: SiMysql },
+  // { name: "Express.js", icon: SiExpress },
 ];
 
 export const knowledgeList = [
@@ -205,100 +183,52 @@ interface Project {
   liveLink?: string;
 }
 
-export const projectList:Project[] = [
+export const projectList: Project[] = [
   {
     id: 1,
-    title: "Event Branding",
-    project: "Graphic Design",
-    category: "Graphics",
-    description: `<li>As a volunteer graphic designer for SolutionFest, I had the opportunity to create various designs including logos, covers, banners for social media, and posts. My designs were aimed at promoting the event and creating a strong brand identity for SolutionFest.</li>
-<li>I created several logo options that captured the essence of the event and reflected its mission. These logos were used in promotional materials such as flyers, brochures, and banners. In addition to this, I also designed covers and banners for social media channels like Facebook, Instagram, and Twitter. These designs were used to create a cohesive online presence and increase engagement.</li>
-<li>My designs for social media posts were aimed at promoting the event, sharing updates, and creating excitement among the target audience. I ensured that the designs were visually appealing, easy to understand, and in line with the brand identity of SolutionFest.</li>
-<li>Overall, my role as a volunteer graphic designer for SolutionFest allowed me to contribute to the success of the event by creating high-quality designs that effectively communicated its message and captured the attention of the target audience.</li>
-`,
-    image: "/assets/solutionFest.webp",
-    techUsed: "Adobe Illustrator",
-    // liveLink: "https://example.com/project1",
+    title: "OmniFood",
+    project: "Web Development",
+    category: "Front-end",
+    description: `<li>During my learning journey of HTML & CSS, I built a front-end design for a recipe web application which are responsive too.</li>`,
+    image: "/assets/omnifood.jpg",
+    techUsed: "HTML, SASS & JS ",
+    liveLink: "https://omnifood-shirha.netlify.app/",
     repoLink: [
-      "Behance",
-      "https://www.behance.net/gallery/165384823/SolutionFest-2k22",
+      "github",
+      "https://github.com/Shirhabeel/omnifood-fully-responsive",
     ],
   },
   {
     id: 2,
-    title: "Rush Super Market",
-    project: "Desktop App",
-    category: "Desktop",
-    description: `<p>The <strong>Rush Super Market Inventory Management App</strong> is a desktop application designed and developed by me using C# and the .NET Framework. This application is designed to help supermarket managers manage inventory, users, and orders in real-time.</p>
-<strong>Features:</strong>
-    <li>Inventory Management: Add and manage items in the supermarket inventory, view stock levels, and receive alerts when items are running low.</li>
-    <li>User Management: Add, edit, and remove users with different access levels. The app also has an admin panel for managing multiple users at once.</li>
-    <li>Order Management: View, track, and manage orders placed by customers in real-time.</li>
-    <li>Real-time Data Storage: The app stores all data in a SQL Server database, ensuring that data is secure and easily accessible.</li>
-    <li>Secure Login: The app has a secure login system, ensuring that only authorized personnel can access the system.</li>
-  <strong>Tech Stack:</strong>
-    <li>Programming Language: C#</li>
-    <li>Framework: .NET Framework</li>
-    <li>Database: SQL Server</li>
-  <strong>Benefits:</strong>
-    <li>Real-time Inventory Management: Managers can view inventory stock levels and receive alerts when stock levels are running low, enabling them to reorder items in time.</li>
-    <li>User Access Management: Managers can add, edit, and remove users with different access levels, ensuring that only authorized personnel have access to sensitive data.</li>
-    <li>Real-time Order Tracking: Managers can view and track orders placed by customers in real-time, enabling them to manage orders more efficiently.</li>
-    <li>Easy to Use: The app has a user-friendly interface that makes it easy to manage inventory, users, and orders.</li>
-    <li>Secure Data Storage: The app stores all data in a SQL Server database, ensuring that data is secure and easily accessible.</li>
-    `,
-    image: "/assets/RushSM.webp",
-    techUsed: "C#, .Net, SQL Database",
-    // liveLink: "https://example.com/project2",
-    repoLink: [
-      "GitHub",
-      "https://github.com/mfaeezshabbir/Rush_Super_Market.git",
-    ],
+    title: "Rainy-Wainy",
+    project: "Web Application",
+    category: "Web",
+    description: `<p>The real-time weather application. I built this website after i finished my JS course. So as a practice I implemented JavaScript async/await functions.</p>`,
+    image: "/assets/rainy-wainy.jpg",
+    techUsed: "HTML, CSS & JS",
+    liveLink: "https://rainy-wainy-shirha.netlify.app/",
+    repoLink: ["GitHub", "https://github.com/Shirhabeel/weather-app"],
   },
   {
     id: 3,
-    title: "GitFi",
+    title: "Forkify",
     project: "Web App",
     category: "Web",
-    description:`<strong>GitHub User Finder</strong>
-      The GbitHub User Finder is a web-based application designed and developed by Muhammad Faeez Shabbir. This application is a powerful tool for discovering GitHub users and exploring their profiles and repositories.
-      
-      With the GitHub User Finder, you can quickly and easily search for GitHub users and explore their profiles and repositories. From discovering new developers to finding potential collaborators, the GitHub User Finder has everything you need to take your GitHub game to the next level.
-      
-      Thanks to its user-friendly interface and powerful search capabilities, the GitHub User Finder is the ultimate tool for exploring the vast world of GitHub. So why wait? Try it out today and discover your next favorite developer!
-      
-      <b>Tech Stack</b>
-      HTML
-      CSS
-      JavaScript
-      GitHub API
-
-      Whether you’re a seasoned GitHub user or just getting started, the GitHub User Finder has something for everyone. So why wait? Try it out today and discover your next favorite developer!
-      `,
-    image:
-      "/assets/GitFi.webp",
+    description: `A recipe Application in which users can add their own recipe and also search many recipes they want.`,
+    image: "/assets/forkify.jpg",
     techUsed: "HTML, CSS, JS, GitHub API",
-    liveLink: "https://mfaeezshabbir.github.io/GitFi/",
-    repoLink: ["GitHub", "https://github.com/mfaeezshabbir/GitFi"],
+    liveLink: "https://forkify-by-shirhabeel.netlify.app/",
+    repoLink: ["GitHub", "https://github.com/Shirhabeel/forkify"],
   },
   {
     id: 4,
-    title: "Todo App",
-    project: "Web App",
+    title: "Rolling Dice Game",
+    project: "Web Application Game",
     category: "Web",
-    description: `The Todo-App is a web-based application designed and developed by Muhammad Faeez Shabbir. This application is a simple yet powerful tool for managing your to-do list and staying organized.
-
-With its intuitive interface and user-friendly features, the Todo-App allows users to easily:
-    <i>
-    Create, edit, and delete tasks
-    Set due dates and priorities
-    </i>
-      Whether you’re a busy professional or a student with a lot on your plate, the Todo-App can help you stay on track and get things done. Plus, it’s fully customizable, so you can tailor it to your specific needs and preferences.
-      `,
-    image:
-      "/assets/todoApp.webp",
+    description: `The Rolling Dice is a web-based game application designed and developed by Shirhabeel Awan. Two users can play this game and when a user reached at 100 score he/she win and its side gets black as a mark for winner`,
+    image: "/assets/rolling-dice.jpg",
     techUsed: "HTML , CSS, JS",
-    liveLink: "https://mfaeezshabbir.github.io/Todo-App/",
-    repoLink: ["GitHub", "https://github.com/mfaeezshabbir/Todo-App"],
+    liveLink: "https://rolling-dice-game-shirha.netlify.app/",
+    repoLink: ["GitHub", "https://github.com/Shirhabeel/Pig-Game"],
   },
 ];

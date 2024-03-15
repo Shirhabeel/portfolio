@@ -1,7 +1,7 @@
 import { IoMdCodeDownload } from "react-icons/io";
 
 function CVDownloadButton() {
-  const cvFilePath = "/cv/Muhammad_Faeez_Shabbir_-_Software_Engineer.pdf";
+  const cvFilePath = "/cv/shirhabeel-awan-resume.pdf";
 
   return (
     <div className=" flex justify-center items-center w-full p-2 text-white rounded-full mt-6 ">
