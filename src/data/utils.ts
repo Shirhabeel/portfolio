@@ -49,7 +49,6 @@ export const personalInfoData = [
   },
 ];
 
-///////////////////////// CORRECT KARNY HEIN /////////////////////////
 export const socialMediaLinks = [
   { icon: FaFacebook, link: "https://www.facebook.com/shirhabeel.awan.73" },
   { icon: FaInstagram, link: "https://www.instagram.com/shirha.exe/" },

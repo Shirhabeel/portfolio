@@ -37,7 +37,7 @@ const NavbarMobile = () => {
     <>
       <div className="w-full relative bg-[#F3F6F6] dark:bg-black lg:bg-transparent lg:dark:bg-transparent flex justify-between py-5 lg:px-0 lg:pt-[50px]">
         <div className="flex justify-between w-full px-4">
-          <span className="text-white h-[26px] lg:h-[32px] text-3xl">MFS</span>
+          <span className="text-white h-[26px] lg:h-[32px] text-3xl">SA</span>
           <button
             onClick={handleMobileMenuToggle}
             className="lg:opacity-0 cursor-pointer lg:invisible visible opacity-100 bg-[#ef4060] w-[40px] h-[40px] rounded-full flex justify-center items-center text-white text-3xl ml-3 p-[.6rem] "
@@ -66,8 +66,11 @@ const NavbarMobile = () => {
                   key={link.path}
                   to={link.path}
                   onClick={handleNavLinkClick}
-                  className={`flex gap-3 px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-white  hover:text-white hover:bg-gradient-to-r to-[#FA5252] from-[#DD2476] ${location.pathname === link.path ? "text-white bg-gradient-to-r from-[#FA5252] to-[#DD2476]" : ""
-                    }`}
+                  className={`flex gap-3 px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-white  hover:text-white hover:bg-gradient-to-r to-[#FA5252] from-[#DD2476] ${
+                    location.pathname === link.path
+                      ? "text-white bg-gradient-to-r from-[#FA5252] to-[#DD2476]"
+                      : ""
+                  }`}
                 >
                   <link.icon className="text-white" size={20} />
                   {link.name}
